@@ -21,6 +21,34 @@
 /* Start custom CSS for section, class: .elementor-element-e495a79 */.section-form .nf-multi-cell .nf-cell {
     padding: 0px 40px !important;
 }/* End custom CSS */
+/* Start custom CSS */.flatpickr-mobile:before {
+  content: attr(placeholder);
+  color: gray;
+}
+
+.flatpickr-mobile:focus[value]:not([value=""]):before {
+  display: none;
+}
+
+input[type="hidden"][value]:not([value=""]) + .flatpickr-mobile:before {
+  display: none;
+}
+input[type="date"]:before{
+color:#383838;
+content:attr(placeholder);
+}
+input[type="date"].full:before {
+color:383838;
+content:""!important;
+}
+input[type="time"]:before{
+color:#383838;
+content:attr(placeholder);
+}
+input[type="time"].full:before {
+color:383838;
+content:""!important;
+}/* End custom CSS */
 /* Start Custom Fonts CSS */@font-face {
 	font-family: 'Avenir';
 	font-style: normal;
