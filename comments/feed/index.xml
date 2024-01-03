@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comentarios en Barco Carrousel	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description>Bote Cartagena Colombia</description>
 	<lastBuildDate>Wed, 03 Jan 2024 21:34:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
