@@ -7,6 +7,99 @@ window.Happy = window.Happy || {};
 (function ($, Happy, w) {
   var $window = $(w);
   $(function () {
+    var $container = $('.ha-fsb-container');
+
+    if ($container.length > 0) {
+      if (window.history && window.history.pushState) {
+        ha_manage_fsb();
+      }
+
+      ;
+      $(document.body).on("added_to_cart", function (event, fragments, cart_hash, $button) {
+        ha_manage_fsb();
+      });
+      $(document.body).on("removed_from_cart", function (event, fragments, cart_hash, $button) {
+        ha_manage_fsb();
+      });
+    }
+
+    function ha_manage_fsb() {
+      $.ajax({
+        url: HappyProLocalize.ajax_url,
+        type: "POST",
+        data: {
+          action: "ha_get_cart_subtotal_action",
+          security: HappyProLocalize.nonce
+        },
+        success: function success(response) {
+          var $data = JSON.parse(response);
+          var $subTotalAmount = $data.subTotalAmount;
+
+          if ($data.status == 'true' && $subTotalAmount >= 0) {
+            var $container = $('.ha-fsb-container');
+            var $elem = $container.find('.ha-fsb-size');
+            var $settings = $container.data('fsb_settings');
+
+            if ($settings != undefined) {
+              var $aimationSpeed = $settings.hasOwnProperty('ha_fsb_animation_speed') ? $settings.ha_fsb_animation_speed : 15;
+              var $progressType = $settings.hasOwnProperty('progress_type') ? $settings.progress_type : 'percent';
+              var $currencySymbol = $settings.hasOwnProperty('currencySymbol') && $progressType == 'percent' ? '%' : $settings.currencySymbol;
+              var $targetAmount = $settings.hasOwnProperty('target_amount') ? $settings.target_amount : 0;
+              var $totalPercent = 0;
+
+              if (parseFloat($subTotalAmount) >= parseFloat($targetAmount)) {
+                $totalPercent = 100;
+              } else {
+                if (parseFloat($targetAmount) == 0) {
+                  $totalPercent = 0;
+                } else {
+                  $totalPercent = parseFloat($subTotalAmount) * 100 / parseFloat($targetAmount);
+                }
+              }
+
+              $totalPercent = parseFloat(Math.round($totalPercent)) >= 100 ? 100 : parseFloat(Math.round($totalPercent));
+              var $progressText = $progressType == 'percent' ? $totalPercent : $subTotalAmount;
+              var defaultWidth = $(window).width() <= 768 ? 12 : 5;
+
+              if ($totalPercent > 0) {
+                $elem.text($progressText + $currencySymbol);
+                $elem.css({
+                  'width': $totalPercent + "%",
+                  'transition': 'width ' + $aimationSpeed + 'ms ease-in-out'
+                });
+              }
+
+              fsbMessageControl($totalPercent);
+
+              if ($progressText <= 0) {
+                $elem.css('width', +defaultWidth + "%");
+                $elem.text('0' + $currencySymbol);
+              }
+            }
+          }
+        },
+        error: function error(_error) {}
+      });
+    }
+
+    ;
+
+    function fsbMessageControl() {
+      var totalPercent = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+      var fsbContainer = $('.ha-fsb-container');
+      var settings = fsbContainer.data('fsb_settings');
+
+      if (fsbContainer && settings) {
+        if (totalPercent >= 100) {
+          $('.ha-fsb-inner-content').html(settings.fsb_success_message);
+        } else {
+          $('.ha-fsb-inner-content').html(settings.announcement);
+        }
+      }
+    }
+
+    ;
+
     function log(event, item, level) {
       $(document).on(event, item, level);
     }
@@ -478,7 +571,7 @@ window.Happy = window.Happy || {};
               }, 800);
             }
           },
-          error: function error(_error) {}
+          error: function error(_error2) {}
         });
       });
     }; //Scrolling Image
@@ -1025,7 +1118,7 @@ window.Happy = window.Happy || {};
               }, 800);
             }
           },
-          error: function error(_error2) {}
+          error: function error(_error3) {}
         });
       });
     }; //SmartPostList
@@ -1118,7 +1211,7 @@ window.Happy = window.Happy || {};
               }
             }
           },
-          error: function error(_error3) {}
+          error: function error(_error4) {}
         });
       }
 
@@ -1179,7 +1272,7 @@ window.Happy = window.Happy || {};
             });
             $self.removeAttr("disabled");
           },
-          error: function error(_error4) {}
+          error: function error(_error5) {}
         });
       });
     }; // Advanced Data Table
@@ -3257,6 +3350,37 @@ window.Happy = window.Happy || {};
     };
 
     elementorFrontend.hooks.addAction('frontend/element_ready/ha-image-swap.default', Image_Swap);
+
+    var FreeShippingBar = function FreeShippingBar($scope) {
+      var $fsbContainer = $scope.find('.ha-fsb-container');
+
+      if ($fsbContainer) {
+        var $settings = $fsbContainer.data('fsb_settings');
+
+        if ($settings != undefined) {
+          var $aimationSpeed = $settings.hasOwnProperty('ha_fsb_animation_speed') ? $settings.ha_fsb_animation_speed : 15;
+          var $achivePercent = $settings.hasOwnProperty('achive_percent') ? $settings.achive_percent : 0;
+          var $progressType = $settings.hasOwnProperty('progress_type') ? $settings.progress_type : 'percent';
+          var $currencySymbol = $settings.hasOwnProperty('currencySymbol') && $progressType == 'percent' ? '%' : $settings.currencySymbol;
+          var $cartTotal = $settings.hasOwnProperty('cart_total') ? $settings.cart_total : 0;
+          var $totalPercent = parseFloat(Math.round($achivePercent)) >= 100 ? 100 : parseFloat(Math.round($achivePercent));
+          var $progressText = $progressType == 'percent' ? $totalPercent : $cartTotal;
+          var $elem = $fsbContainer.find('.ha-fsb-size');
+          $elem.text($progressText + $currencySymbol);
+          var defaultWidth = $(window).width() <= 768 ? 12 : 5;
+          $totalPercent > 0 ? $elem.css({
+            'width': $totalPercent + "%",
+            'transition': 'width ' + $aimationSpeed + 'ms ease-in-out'
+          }) : $elem.css('width', +defaultWidth + "%");
+        }
+      }
+    };
+
+    elementorFrontend.hooks.addAction('frontend/element_ready/ha-shipping-bar.default', FreeShippingBar);
+    $('.fsb-close-icon').on('click', function () {
+      document.cookie = "ha_close_fsb = yes;path=/";
+      $('.ha-fsb-container').hide();
+    });
     elementorFrontend.hooks.addAction('frontend/element_ready/ha-flip-box.default', FlipBox);
 
     var HaRemoteCarousel = function HaRemoteCarousel($scope) {
@@ -3921,6 +4045,95 @@ window.Happy = window.Happy || {};
       elementorFrontend.elementsHandler.addHandler(HaTOC, {
         $element: $scope
       });
-    });
+    }); //creativeSlider
+
+    var HaCreativeSlider = function HaCreativeSlider($scope) {
+      var $rcContainer = $scope.find('.ha-creative-slider-container');
+
+      if ($rcContainer) {
+        var $haCsWidth = window.innerWidth;
+        var $haCsNextSelector = parseInt($haCsWidth) <= 767 ? $rcContainer.find('.ha_cs_mobile_next') : $rcContainer.find('.ha_cc_next_wrapper');
+        var $haCsPrevSelector = parseInt($haCsWidth) <= 767 ? $rcContainer.find('.ha_cs_mobile_prev') : $rcContainer.find('.ha_cc_prev_wrapper');
+        var csTextItemDelay = parseInt($haCsWidth) <= 767 ? 40 : 30;
+        var csImageItemDelay = 40;
+        var csPrevItemsOwl = $rcContainer.find('.ha_cc_prev_items');
+        var csTextItemsOwl = $rcContainer.find('.ha_cc_text_items');
+        var csImageItemsOwl = $rcContainer.find('.ha_cc_inner_image_items');
+        var csNextItemsOwl = $rcContainer.find('.ha_cc_next_items');
+        var csPrevNavOptions = {
+          loop: true,
+          dots: false,
+          nav: false,
+          items: 1,
+          autoplay: false,
+          smartSpeed: 500,
+          touchDrag: false,
+          mouseDrag: false,
+          rewind: true,
+          startPosition: -1
+        };
+        var csNextNavOptions = {
+          loop: true,
+          dots: false,
+          nav: false,
+          items: 1,
+          autoplay: false,
+          smartSpeed: 500,
+          touchDrag: false,
+          mouseDrag: false,
+          rewind: true,
+          startPosition: 1
+        };
+        var csGeneralOptions = {
+          loop: true,
+          dots: false,
+          nav: false,
+          items: 1,
+          autoplay: false,
+          smartSpeed: 1000,
+          touchDrag: false,
+          mouseDrag: false,
+          singleItem: true,
+          animateOut: 'fadeOutRight',
+          animateIn: 'fadeInLeft',
+          rewind: true
+        };
+      }
+
+      csPrevItemsOwl.owlCarousel(csPrevNavOptions);
+      csNextItemsOwl.owlCarousel(csNextNavOptions);
+      csTextItemsOwl.owlCarousel(csGeneralOptions);
+      csImageItemsOwl.owlCarousel(csGeneralOptions);
+      window.parent.addEventListener('message', function (e) {
+        if ('ha_cs_reinit' == e.data) {
+          csTextItemsOwl.owlCarousel('refresh');
+          csImageItemsOwl.owlCarousel('refresh');
+        }
+      });
+      $($haCsPrevSelector).click(function (e) {
+        e.preventDefault();
+        csPrevItemsOwl.trigger('prev.owl.carousel');
+        csNextItemsOwl.trigger('prev.owl.carousel');
+        setTimeout(function () {
+          csTextItemsOwl.trigger('prev.owl.carousel');
+        }, csTextItemDelay);
+        setTimeout(function () {
+          csImageItemsOwl.trigger('prev.owl.carousel');
+        }, csTextItemDelay + csImageItemDelay);
+      });
+      $($haCsNextSelector).click(function (e) {
+        e.preventDefault();
+        csPrevItemsOwl.trigger('next.owl.carousel');
+        csNextItemsOwl.trigger('next.owl.carousel');
+        setTimeout(function () {
+          csTextItemsOwl.trigger('next.owl.carousel');
+        }, csTextItemDelay);
+        setTimeout(function () {
+          csImageItemsOwl.trigger('next.owl.carousel');
+        }, csTextItemDelay + csImageItemDelay);
+      });
+    };
+
+    elementorFrontend.hooks.addAction('frontend/element_ready/ha-creative-slider.default', HaCreativeSlider);
   });
 })(jQuery, Happy, window);

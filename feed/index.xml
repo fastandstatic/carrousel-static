@@ -12,13 +12,13 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>Bote Cartagena Colombia</description>
-	<lastBuildDate>Wed, 03 Jan 2024 21:34:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 07 Mar 2024 16:07:34 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.3</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>./../wp-content/uploads/2016/10/cropped-favicon-32x32.png</url>
