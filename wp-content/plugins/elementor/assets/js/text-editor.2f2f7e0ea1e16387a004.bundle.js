@@ -1,4 +1,4 @@
-/*! elementor - v3.18.0 - 20-12-2023 */
+/*! elementor - v3.20.0 - 26-03-2024 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["text-editor"],{
 

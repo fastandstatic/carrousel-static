@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Barco Carrousel</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Bote Cartagena Colombia</description>
-	<lastBuildDate>Thu, 07 Mar 2024 16:07:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 Mar 2024 17:07:50 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
-	<url>./../wp-content/uploads/2016/10/cropped-favicon-32x32.png</url>
+	<url>/wp-content/uploads/2016/10/cropped-favicon-32x32.png</url>
 	<title>Barco Carrousel</title>
-	<link>./../index.html</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
