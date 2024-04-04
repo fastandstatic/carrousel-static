@@ -5,3 +5,25 @@
 #form_carrousel .elementor-select-wrapper.remove-before:before {
     content: url(/wp-content/uploads/2024/03/Path-24372.svg) !important;
 }/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://carrousel.com.co/wp-content/uploads/2022/11/AvenirLTStd-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 200;
+	font-display: auto;
+	src: url('https://carrousel.com.co/wp-content/uploads/2022/11/AvenirLTStd-Book.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://carrousel.com.co/wp-content/uploads/2022/11/AvenirLTStd-Roman.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
