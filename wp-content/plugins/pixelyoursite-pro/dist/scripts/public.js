@@ -1022,7 +1022,7 @@ if (!String.prototype.trim) {
              * Generate unique ID
              */
             generateUniqueId : function (event) {
-                if(event.eventID.length == 0 || (event.type == "static" && options.ajaxForServerStaticEvent)) {
+                if(event.eventID.length == 0 || (event.type == "static" && options.ajaxForServerStaticEvent) || (event.type !== "static" && options.ajaxForServerEvent)) {
                     let idKey = event.hasOwnProperty('custom_event_post_id') ? event.custom_event_post_id : event.e_id;
                     if (!uniqueId.hasOwnProperty(idKey)) {
                         uniqueId[idKey] = pys_generate_token();
@@ -1243,40 +1243,7 @@ if (!String.prototype.trim) {
                     Cookies.set('pys_start_session', true,{ path: '/',domain: domain });
                     Utils.setHidePixelCookie();
                 }
-                if (options.gdpr.ajax_enabled && !options.gdpr.consent_magic_integration_enabled) {
 
-                    // retrieves actual PYS GDPR filters values which allow to avoid cache issues
-                    $.get({
-                        url: options.ajaxUrl,
-                        dataType: 'json',
-                        data: {
-                            action: 'pys_get_gdpr_filters_values'
-                        },
-                        success: function (res) {
-
-                            if (res.success) {
-
-                                options.gdpr.all_disabled_by_api = res.data.all_disabled_by_api;
-                                options.gdpr.facebook_disabled_by_api = res.data.facebook_disabled_by_api;
-                                options.gdpr.tiktok_disabled_by_api = res.data.tiktok_disabled_by_api;
-                                options.gdpr.analytics_disabled_by_api = res.data.analytics_disabled_by_api;
-                                options.gdpr.google_ads_disabled_by_api = res.data.google_ads_disabled_by_api;
-                                options.gdpr.pinterest_disabled_by_api = res.data.pinterest_disabled_by_api;
-                                options.gdpr.bing_disabled_by_api = res.data.bing_disabled_by_api;
-
-                                options.cookie.externalID_disabled_by_api = res.data.externalID_disabled_by_api;
-                                options.cookie.disabled_all_cookie = res.data.disabled_all_cookie;
-                                options.cookie.disabled_advanced_form_data_cookie = res.data.disabled_advanced_form_data_cookie;
-                                options.cookie.disabled_landing_page_cookie = res.data.disabled_landing_page_cookie;
-                                options.cookie.disabled_first_visit_cookie = res.data.disabled_first_visit_cookie;
-                                options.cookie.disabled_trafficsource_cookie = res.data.disabled_trafficsource_cookie;
-                                options.cookie.disabled_utmTerms_cookie = res.data.disabled_utmTerms_cookie;
-                                options.cookie.disabled_utmId_cookie = res.data.disabled_utmId_cookie;
-
-                            }
-                        }
-                    });
-                }
                 if (!Cookies.get('pbid') && Facebook.isEnabled() && options.ajaxForServerEvent) {
                     jQuery.ajax({
                         url: options.ajaxUrl,
@@ -1924,7 +1891,7 @@ if (!String.prototype.trim) {
                 window[ this.dataLayerName ].push( arguments );
             },
 
-            loadGTMScript: function (id) {
+            loadGTMScript: function (id = '') {
                 const domain = options.gtm.gtm_container_domain ?? 'www.googletagmanager.com';
                 const loader = options.gtm.gtm_container_identifier ?? 'gtm';
                 const gtm_auth = options.gtm.gtm_auth ?? ''; // Set this if needed
@@ -2097,6 +2064,7 @@ if (!String.prototype.trim) {
                     if (
                         ( ( typeof CS_Data.cs_google_consent_mode_enabled !== "undefined" && CS_Data.cs_google_consent_mode_enabled == 1 ) && ( pixel == 'analytics' || pixel == 'google_ads' ) )
                         || ( typeof CS_Data.cs_meta_ldu_mode !== "undefined" && CS_Data.cs_meta_ldu_mode && pixel == 'facebook' )
+                        || ( typeof CS_Data.cs_bing_consent_mode !== "undefined" && CS_Data.cs_bing_consent_mode.ad_storage.enabled && pixel == 'bing' )
                     ) {
                         if ( CS_Data.cs_cache_enabled == 0 || ( CS_Data.cs_cache_enabled == 1 && window.CS_Cache && window.CS_Cache.check_status ) ) {
                             return true;
@@ -2412,7 +2380,7 @@ if (!String.prototype.trim) {
                                         Facebook.loadPixel();
                                     }
 
-                                    if ( categoryCookie === CS_Data.cs_script_cat.bing ) {
+                                    if ( categoryCookie === CS_Data.cs_script_cat.bing || ( typeof CS_Data.cs_bing_consent_mode !== "undefined" && CS_Data.cs_bing_consent_mode.ad_storage.enabled ) ) {
                                         Bing.loadPixel();
                                     }
 
@@ -2436,7 +2404,7 @@ if (!String.prototype.trim) {
                                         consent.facebook = false;
                                     }
 
-                                    if ( categoryCookie === CS_Data.cs_script_cat.bing ) {
+                                    if ( categoryCookie === CS_Data.cs_script_cat.bing && ( typeof CS_Data.cs_bing_consent_mode == "undefined" || !CS_Data.cs_bing_consent_mode.ad_storage.enabled ) ) {
                                         Bing.disable();
                                         consent.bing = false;
                                     }
@@ -2513,23 +2481,29 @@ if (!String.prototype.trim) {
 
                             } else if ( button_action === 'disable_all' ) {
 
-                                Facebook.disable();
-                                Bing.disable();
-                                if ( CS_Data.cs_google_analytics_consent_mode == 0 || typeof CS_Data.cs_google_analytics_consent_mode == "undefined" ) {
+                                if (typeof CS_Data.cs_meta_ldu_mode == "undefined" || CS_Data.cs_meta_ldu_mode == 0 ) {
+                                    Facebook.disable();
+                                    consent.facebook = false;
+                                }
+
+                                if (typeof CS_Data.cs_bing_consent_mode == "undefined" || CS_Data.cs_bing_consent_mode.ad_storage.enabled == 0 ) {
+                                    Bing.disable();
+                                    consent.bing = false;
+                                }
+
+                                if ( typeof CS_Data.cs_google_analytics_consent_mode == "undefined" || CS_Data.cs_google_analytics_consent_mode == 0 ) {
                                     Analytics.disable();
                                     consent.ga = false;
                                     consent.gtm = false;
                                 }
 
-                                if ( CS_Data.cs_google_ads_consent_mode == 0 || typeof CS_Data.cs_google_ads_consent_mode == "undefined" ) {
+                                if ( typeof CS_Data.cs_google_ads_consent_mode == "undefined" || CS_Data.cs_google_ads_consent_mode == 0 ) {
                                     GAds.disable();
                                     consent.google_ads = false;
                                 }
                                 Pinterest.disable();
                                 TikTok.disable();
 
-                                consent.facebook = false;
-                                consent.bing = false;
                                 consent.pinterest = false;
                                 consent.tiktok = false;
 
@@ -5183,9 +5157,13 @@ if (!String.prototype.trim) {
                         break;
                     }
                 }
+
                 if(options.gtm.gtm_just_data_layer) {
                     console.warn && console.warn("[PYS] Google Tag Manager container code placement set to OFF !!!");
                     console.warn && console.warn("[PYS] Data layer codes are active but GTM container must be loaded using custom coding !!!");
+                    if(options.gtm.trackingIds.length == 0){
+                        Utils.loadGTMScript();
+                    }
                 }
 
                 if(options.hasOwnProperty("tracking_analytics") && options.tracking_analytics.hasOwnProperty("userDataEnable") && options.tracking_analytics.userDataEnable){
@@ -5503,19 +5481,30 @@ if (!String.prototype.trim) {
         }
 
         if($("#pys_late_event").length > 0) {
-            var events =  JSON.parse($("#pys_late_event").attr("dir"));
-            for (var platform in events) {
-                if (events.hasOwnProperty(platform)) {
-                    var platformEvents = events[platform];
-                    platformEvents.forEach(function(event) {
-                        var eventData = {};
-                        eventData[event.e_id] = [event];
-                        if (options.staticEvents.hasOwnProperty(platform)) {
-                            Object.assign(options.staticEvents[platform], eventData);
-                        } else {
-                            options.staticEvents[platform] = eventData;
-                        }
-                    });
+            var dirAttr = $("#pys_late_event").attr("dir");
+            if (dirAttr) {
+                try {
+                    var events = JSON.parse(dirAttr);
+                } catch (e) {
+                    console.warn("Invalid JSON in pys_late_event dir attribute:", e);
+                }
+            } else {
+                console.warn("pys_late_event dir attribute is undefined or empty");
+            }
+            if (events) {
+                for (var platform in events) {
+                    if (events.hasOwnProperty(platform)) {
+                        var platformEvents = events[platform];
+                        platformEvents.forEach(function (event) {
+                            var eventData = {};
+                            eventData[event.e_id] = [event];
+                            if (options.staticEvents.hasOwnProperty(platform)) {
+                                Object.assign(options.staticEvents[platform], eventData);
+                            } else {
+                                options.staticEvents[platform] = eventData;
+                            }
+                        });
+                    }
                 }
             }
         }
@@ -5909,7 +5898,6 @@ if (!String.prototype.trim) {
             $(window)
                 .on( "blur",function () {
                     if (isOverGoogleAd) {
-                        console.log('automatic_event_adsense')
                         if(options.dynamicEvents.hasOwnProperty("automatic_event_adsense")) {
                             var pixels = Object.keys(options.dynamicEvents.automatic_event_adsense);
                             for (var i = 0; i < pixels.length; i++) {
