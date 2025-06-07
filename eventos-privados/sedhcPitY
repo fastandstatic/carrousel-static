@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Eventos privados &#8211; Barco Carrousel</title>
+<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Google Tag Manager by PYS -->
+    <script data-cfasync="false" data-pagespeed-no-defer>window.dataLayerPYS = window.dataLayerPYS || [];</script>
+<!-- End Google Tag Manager by PYS --><script type="application/javascript" id="pys-version-script">console.log('PixelYourSite PRO version 11.3.0.3');</script>
+<link rel="alternate" type="application/rss+xml" title="Barco Carrousel &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="Barco Carrousel &raquo; Feed de los comentarios" href="/comments/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍🔥","🐦​🔥")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-emoji-styles-inline-css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<style id="joinchat-button-style-inline-css">.wp-block-joinchat-button{border:none!important;text-align:center}.wp-block-joinchat-button figure{display:table;margin:0 auto;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;border:6px solid #25d366;border-radius:30px;box-sizing:content-box;display:block;height:200px;margin:auto;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .joinchat-button__link{align-items:center;background-color:#25d366;border:6px solid #25d366;border-radius:30px;display:inline-flex;flex-flow:row nowrap;justify-content:center;line-height:1.25em;margin:0 auto;text-decoration:none}.wp-block-joinchat-button .joinchat-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button figure+.joinchat-button__link{margin-top:10px}@media (orientation:landscape)and (min-height:481px),(orientation:portrait)and (min-width:481px){.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link{display:none}}@media (max-width:480px),(orientation:landscape)and (max-height:480px){.wp-block-joinchat-button figure{display:none}}</style>
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="hello-elementor-css" href="/wp-content/themes/hello-elementor/style.min.css?ver=3.4.2" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="/wp-content/themes/hello-elementor/theme.min.css?ver=3.4.2" media="all">
+<link rel="stylesheet" id="hello-elementor-header-footer-css" href="/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.4.2" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1747953368" media="all">
+<link rel="stylesheet" id="widget-icon-list-css" href="/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1747953368" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.0" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1747953368" media="all">
+<link rel="stylesheet" id="widget-image-css" href="/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.0" media="all">
+<link rel="stylesheet" id="widget-nav-menu-css" href="/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1747953368" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.0" media="all">
+<link rel="stylesheet" id="widget-video-css" href="/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.29.0" media="all">
+<link rel="stylesheet" id="e-popup-css" href="/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.0" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.40.0" media="all">
+<link rel="stylesheet" id="elementor-post-685-css" href="/wp-content/uploads/elementor/css/post-685.css?ver=1747953369" media="all">
+<link rel="stylesheet" id="elementor-post-2995-css" href="/wp-content/uploads/elementor/css/post-2995.css?ver=1747953540" media="all">
+<link rel="stylesheet" id="elementor-post-787-css" href="/wp-content/uploads/elementor/css/post-787.css?ver=1747953369" media="all">
+<link rel="stylesheet" id="elementor-post-858-css" href="/wp-content/uploads/elementor/css/post-858.css?ver=1747953369" media="all">
+<link rel="stylesheet" id="elementor-post-1867-css" href="/wp-content/uploads/elementor/css/post-1867.css?ver=1747953369" media="all">
+<link rel="stylesheet" id="elementor-gf-local-roboto-css" href="/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742405134" media="all">
+<link rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742405136" media="all">
+<link rel="stylesheet" id="elementor-gf-local-redhatdisplay-css" href="/wp-content/uploads/elementor/google-fonts/css/redhatdisplay.css?ver=1742405137" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<style id="joinchat-head-inline-css">
+:root{--joinchat-ico:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0s4.686 12.283 0 16.97a12 12 0 0 1-13.754 2.299l-5.814.735a.392.392 0 0 1-.438-.44l.748-5.788A12 12 0 0 1 3.517 3.517zm3.61 17.043.3.158a9.85 9.85 0 0 0 11.534-1.758c3.843-3.843 3.843-10.074 0-13.918s-10.075-3.843-13.918 0a9.85 9.85 0 0 0-1.747 11.554l.16.303-.51 3.942a.196.196 0 0 0 .219.22zm6.534-7.003-.933 1.164a9.84 9.84 0 0 1-3.497-3.495l1.166-.933a.79.79 0 0 0 .23-.94L9.561 6.96a.79.79 0 0 0-.924-.445l-2.023.524a.797.797 0 0 0-.588.88 11.754 11.754 0 0 0 10.005 10.005.797.797 0 0 0 .88-.587l.525-2.023a.79.79 0 0 0-.445-.923L14.6 13.327a.79.79 0 0 0-.94.23z'/%3E%3C/svg%3E")}.joinchat{--sep:20px;--bottom:var(--sep);--s:60px;--h:calc(var(--s)/2);display:block;transform:scale3d(1,1,1);position:fixed;z-index:9000;right:var(--sep);bottom:var(--bottom)}.joinchat *{box-sizing:border-box}.joinchat__qr,.joinchat__chatbox{display:none}.joinchat__tooltip{opacity:0}.joinchat__button{position:absolute;z-index:2;bottom:8px;right:8px;height:var(--s);width:var(--s);background:#25d366 var(--joinchat-ico,none)center / 60% no-repeat;color:inherit;border-radius:50%;box-shadow:1px 6px 24px 0 rgba(7,94,84,0.24)}.joinchat--left{right:auto;left:var(--sep)}.joinchat--left .joinchat__button{right:auto;left:8px}.joinchat__button__ico{position:absolute;inset:0;display:flex;border-radius:50%;overflow:hidden;color:hsl(0deg 0% clamp(0%,var(--bw)*1000%,100%) / clamp(70%,var(--bw)*1000%,100%)) !important}.joinchat__button__ico svg{width:var(--ico-size,100%);height:var(--ico-size,100%);margin:calc((100% - var(--ico-size,100%))/2)}.joinchat__button:has(.joinchat__button__ico){background:hsl(var(--ch)var(--cs)var(--cl));box-shadow:1px 6px 24px 0 hsl(var(--ch)var(--cs)calc(var(--cl) - 10%) / 24%)}.joinchat__button:has(.joinchat__button__ico):hover,.joinchat__button:has(.joinchat__button__ico):active{background:hsl(var(--ch)var(--cs)calc(var(--cl) + 20%))}.joinchat__button__image{position:absolute;inset:1px;border-radius:50%;overflow:hidden;opacity:0}.joinchat__button__image img,.joinchat__button__image video{display:block;width:100%;height:100%;object-fit:cover;object-position:center}.joinchat--img .joinchat__button__image{opacity:1;animation:none}@media(orientation:portrait)and(width>=481px),(orientation:landscape)and(height>=481px){.joinchat--mobile{display:none !important}}@media(width <=480px),(orientation:landscape)and(height <=480px){.joinchat{--sep:6px}}
+</style>
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="/wp-content/plugins/pixelyoursite-pro/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js"></script>
+<script src="/wp-content/plugins/pixelyoursite-pro/dist/scripts/jquery.bind-first-0.2.3.min.js" id="jquery-bind-first-js"></script>
+<script src="/wp-content/plugins/pixelyoursite-pro/dist/scripts/tld.min.js?ver=2.3.1" id="js-tld-js"></script>
+<script id="pys-js-extra">var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","ajaxFire":false,"name":"PageView","eventID":"2a1c1d30-ca3c-4d98-8191-141fc33a92ac","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":[],"triggerEvents":{"3622":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":3622,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"JoinChat","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":3622,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"JoinChat","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"2825":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":2825,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"cotiza_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":2825,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"cotiza_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":2825,"name":"cotiza_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"2824":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":2824,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"cotiza_arriba","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":2824,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"cotiza_arriba","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":2824,"name":"cotiza_arriba","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"2639":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":2639,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"reserva_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":2639,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"reserva_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":2639,"name":"reserva_tour","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"1040":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":1040,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"Instagram","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":1040,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"Instagram","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":1040,"name":"Instagram","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"1039":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":1039,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"Facebook","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":1039,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"Facebook","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":1039,"name":"Facebook","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"1038":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":1038,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"Mail_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":1038,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"Mail_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":1038,"name":"Mail_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"1019":{"ga":{"delay":0,"type":"trigger","custom_event_post_id":1019,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"name":"Whats_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"google_ads":{"delay":0,"type":"trigger","custom_event_post_id":1019,"unify":true,"trackingIds":["G-KC7SLXKER7","AW-10991251726"],"conversion_ids":["AW-10991251726"],"name":"Whats_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"trigger","custom_event_post_id":1019,"name":"Whats_abajo","eventID":"2a12f11b-b4eb-4912-984b-b82f0f957b3c","pixelIds":["471620754983796"],"params":{"page_title":"Eventos privados","post_type":"page","post_id":2995,"plugin":"PixelYourSite","event_url":"carrousel.fastandstatic.com\/eventos-privados\/","user_role":"guest"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEventTypes":{"css_click":{"3622":[".joinchat__button"],"2825":["#cotiza_tour"],"2824":["#cotiza_arriba"],"2639":["#reserva_tour"]},"url_click":{"1040":[{"rule":"contains","value":"https:\/\/www.instagram.com\/barcocarrousel\/"}],"1039":[{"rule":"contains","value":"https:\/\/www.facebook.com\/barcocarrousel"}],"1038":[{"rule":"contains","value":"mailto:info@carrousel.com.co"}],"1019":[{"rule":"contains","value":"wa.me\/573216909406"}]}},"facebook":{"pixelIds":["471620754983796"],"advancedMatchingEnabled":true,"advancedMatching":[],"removeMetadata":false,"wooVariableAsSimple":false,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":true,"enabled_medical":false,"do_not_track_medical_param":["event_url","post_title","page_title","landing_page","content_name","categories","category_name","tags"],"meta_ldu":false},"ga":{"trackingIds":["G-KC7SLXKER7"],"retargetingLogic":"ecomm","crossDomainEnabled":false,"crossDomainAcceptIncoming":false,"crossDomainDomains":[],"wooVariableAsSimple":true,"isDebugEnabled":["index_0"],"serverContainerUrls":{"G-KC7SLXKER7":{"enable_server_container":"","server_container_url":"","transport_url":""}},"additionalConfig":{"G-KC7SLXKER7":{"first_party_collection":true}},"disableAdvertisingFeatures":false,"disableAdvertisingPersonalization":false,"url_passthrough":true,"url_passthrough_filter":true,"custom_page_view_event":false},"google_ads":{"conversion_ids":["AW-10991251726"],"enhanced_conversion":[],"woo_purchase_conversion_track":"current_event","woo_initiate_checkout_conversion_track":"current_event","woo_add_to_cart_conversion_track":"current_event","woo_view_content_conversion_track":"current_event","woo_view_category_conversion_track":"current_event","edd_purchase_conversion_track":"current_event","edd_initiate_checkout_conversion_track":"current_event","edd_add_to_cart_conversion_track":"current_event","edd_view_content_conversion_track":"current_event","edd_view_category_conversion_track":"current_event","wooVariableAsSimple":true,"crossDomainEnabled":false,"crossDomainAcceptIncoming":false,"crossDomainDomains":[]},"debug":"","siteUrl":"","ajaxUrl":"\/wp-admin\/admin-ajax.php","ajax_event":"d553393949","trackUTMs":"1","trackTrafficSource":"1","user_id":"0","enable_lading_page_param":"1","cookie_duration":"7","enable_event_day_param":"1","enable_event_month_param":"1","enable_event_time_param":"1","enable_remove_target_url_param":"1","enable_remove_download_url_param":"1","visit_data_model":"first_visit","last_visit_duration":"60","enable_auto_save_advance_matching":"1","enable_success_send_form":"","enable_automatic_events":"","enable_event_video":"1","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","data_persistency":"keep_data","advance_matching_form":{"enable_advance_matching_forms":true,"advance_matching_fn_names":["","first_name","first-name","first name","name"],"advance_matching_ln_names":["","last_name","last-name","last name"],"advance_matching_tel_names":["","phone","tel"],"advance_matching_em_names":[]},"advance_matching_url":{"enable_advance_matching_url":true,"advance_matching_fn_names":[],"advance_matching_ln_names":[],"advance_matching_tel_names":[],"advance_matching_em_names":[]},"track_dynamic_fields":[],"gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"tiktok_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"tiktok_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":true,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_tiktok_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"consent_magic_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"\/eventos-privados\/","TrafficUtms":[],"TrafficUtmsId":[],"userDataEnable":true,"userData":{"emails":[],"phones":[],"addresses":[]},"use_encoding_provided_data":true,"use_multiple_provided_data":true},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"automatic":{"enable_youtube":true,"enable_vimeo":true,"enable_video":true},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1748292370"};</script>
+<script src="/wp-content/plugins/pixelyoursite-pro/dist/scripts/public.js?ver=11.3.0.3" id="pys-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/2995">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.1">
+<link rel="canonical" href="/eventos-privados/">
+<link rel="shortlink" href="/?p=2995">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Feventos-privados%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Feventos-privados%2F#038;format=xml">
+
+	<style>html, body {
+			width: 100%!important;
+			overflow-x: hidden!important;
+		}
+		
+		body.page-template-default #head {
+			width: 100%;
+			background-color: #082947 !important;
+		}
+		strong.barco {
+			font-size: 80px;
+		}
+		.item-popup {
+			width: 1024px !important;
+			height: 700px !important;
+		}
+		.ue-popup-overlay {
+			z-index: 99999 !important;
+		}
+				
+		.section-form .field-wrap>div input[type=text],
+		.section-form .field-wrap>div input[type=tel],
+		.section-form .field-wrap>div input[type=number],
+		.section-form .field-wrap>div input[type=email] {
+			background-color: transparent !important;
+			border-bottom: 1px solid #FFFFFF !important;
+			color: #F6F6F6 !important;
+			border: none;
+			border-radius: 0 !important
+		}
+		.section-form .field-wrap>div input::placeholder {
+			color: #F6F6F6 !important;
+		}
+		.section-form .field-wrap>div select:focus {
+			color: #f6f6f6 !important
+		}
+		.section-form .field-wrap>div select:focus-visible {
+			color: #f6f6f6 !important
+		}
+		.section-form .field-wrap>div select {
+			background-color: transparent !important;
+			border-bottom: 1px solid #FFFFFF !important;
+			color:  #F6F6F6  !important;
+			border: none;
+			border-radius: 0 !important
+		}
+		.section-form .field-wrap>div select option { 
+			color: #000 !important; 
+		}
+		.section-form .field-wrap>div select option[selected="selected"] { 
+			color: red !important; 
+		}
+		
+		.section-form .field-wrap textarea {
+			border-radius: 0 !important;
+		}
+		.section-form .nf-multi-cell .nf-cell {
+			float: left;
+			padding: 6px 40px;
+		}
+		.section-form .field-wrap>div input[type=text]:focus-visible,
+		.section-form .field-wrap>div input[type=tel]:focus-visible,
+		.section-form .field-wrap>div select:focus-visible {
+			outline: none !important;
+		}
+		.section-form .nf-field-element textarea {
+			height: 118px;
+		}
+		.section-form input[type="button"] {
+			color: #082947 !important;
+			background-color: #7AD3C1 !important;
+			font-size: 24px !important;
+			font-weight: bold !important;
+			border-radius: 0 !important;
+			width: 250px !important;
+		}
+		.section-form .field-wrap>div select option {
+			color: #000 !important; 
+		}
+		.nf-error-msg {
+			color: #FDC47F !important;
+		}
+		.nf-error-msg.nf-error-field-errors {
+			margin-left: 40px !important;
+		}
+		
+		/*.slider-eventos .slider-eventos-desk ul.slick-dots,
+		.slider-bodas .slider-bodas-desk ul.slick-dots {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			align-items: flex-end;
+			left: 70px;
+			bottom: 150px !important;
+		}*/
+		.nf-response-msg p {
+			color: #fff !important;
+			font-size: 18px !important;
+			text-align: center;
+			font-family: 'Avenir';
+		}
+
+		.section-barco-inicial ul li a:before {
+			position: absolute;
+			content: "";
+			bottom: 0;
+			top: 10px;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url(http://carrousel.com.co/wp-content/uploads/2022/12/Mask-Group-24.png) repeat-x;
+			background-size: 15px;
+			background-position: 0;
+			animation: waveline 6s linear infinite;
+			opacity: 0;
+    		transition: all ease 0.5s;
+		}
+		.section-barco-inicial ul li:hover {
+			color: #7AD3C1 !important;
+		}
+		.section-barco-inicial ul li a:hover {
+			color: #7AD3C1 !important;
+		}
+		.section-barco-inicial ul li a span:hover {
+			color: #7AD3C1 !important;
+		}
+		.section-barco-inicial ul li a:hover:before {
+			opacity: 1;
+			color: #7AD3C1 !important;
+		}
+		.section-barco-inicial ul li a span {
+			height: 25px !important;
+		}
+
+
+
+
+		@media only screen and (max-width: 800px){
+			
+		}
+
+		/* VISTA  MOVIL */
+		@media only screen and (max-width: 767px) {
+			strong.barco {
+				font-size: 40px;
+			}
+				
+		}
+			
+		@media only screen and (max-width: 782px) {
+
+		}
+	
+		@media (max-width: 1024px) {
+		
+		}</style>
+
+<meta name="generator" content="Elementor 3.29.0; features: additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}</style>
+			<link rel="icon" href="/wp-content/uploads/2016/10/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2016/10/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2016/10/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2016/10/cropped-favicon-270x270.png">
+</head>
+<body class="wp-singular page-template-default page page-id-2995 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-685 elementor-page elementor-page-2995">
+
+
+<a class="skip-link screen-reader-text" href="#content">Ir al contenido</a>
+
+		<div data-elementor-type="header" data-elementor-id="787" class="elementor elementor-787 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-7a7e3a4 e-flex e-con-boxed e-con e-parent" data-id="7a7e3a4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-55cbc4c e-con-full e-flex e-con e-child" data-id="55cbc4c" data-element_type="container">
+		<div class="elementor-element elementor-element-2575331 e-con-full e-flex e-con e-child" data-id="2575331" data-element_type="container">
+				<div class="elementor-element elementor-element-0ea75aa elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0ea75aa" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone-alt"></i>						</span>
+										<span class="elementor-icon-list-text">(+57) 321 698 9125 – 321690 9406</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-cca05f2 e-con-full e-flex e-con e-child" data-id="cca05f2" data-element_type="container">
+				<div class="elementor-element elementor-element-df97f48 e-grid-align-right e-grid-align-mobile-right elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="df97f48" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-67e5f82" href="https://www.facebook.com/barcocarrousel" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-a810aee" href="https://www.instagram.com/barcocarrousel/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0fd7209 e-flex e-con-boxed e-con e-parent" data-id="0fd7209" data-element_type="container" id="head">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1e8a261 e-con-full e-flex e-con e-child" data-id="1e8a261" data-element_type="container">
+		<div class="elementor-element elementor-element-99e47cc e-con-full e-flex e-con e-child" data-id="99e47cc" data-element_type="container">
+				<div class="elementor-element elementor-element-5a52569 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5a52569" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="/">
+			<img width="221" height="92" src="/wp-content/uploads/2016/09/yachtcarrousel-01.png" class="attachment-full size-full wp-image-13" alt="">				</a>
+											</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8852659 e-con-full e-flex e-con e-child" data-id="8852659" data-element_type="container">
+				<div class="elementor-element elementor-element-00dce01 elementor-widget elementor-widget-html" data-id="00dce01" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<style>#head {
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    background-color: #082947;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    z-index: 9;
+;
+}</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>$(window).scroll(function () {
+      if($(window).scrollTop() > 20) {
+        $("#head").addClass('sticky');;
+      } else {
+        $("#head").removeClass('sticky');
+        $("span.elementor-heading-title a").css("color", "#fff");
+      }
+    });</script>
+
+<script>$(window).scroll(function () {
+      if($(window).scrollTop() > 20) {
+        $("#head").addClass('sticky');
+      } else {
+        $("#head").removeClass('sticky');
+      }
+    });</script>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d6c5320 elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="d6c5320" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-d6c5320" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3493"><a href="/conoce-el-barco/" class="elementor-item">Conoce el Barco</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2995 current_page_item menu-item-3317"><a href="/eventos-privados/" aria-current="page" class="elementor-item elementor-item-active">Eventos Privados</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3316"><a href="/eventos-corporativos/" class="elementor-item">Eventos Corporativos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="/bodas/" class="elementor-item">Bodas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494"><a href="/contacto/" class="elementor-item">Contacto</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-d6c5320" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3493"><a href="/conoce-el-barco/" class="elementor-item" tabindex="-1">Conoce el Barco</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2995 current_page_item menu-item-3317"><a href="/eventos-privados/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Eventos Privados</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3316"><a href="/eventos-corporativos/" class="elementor-item" tabindex="-1">Eventos Corporativos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="/bodas/" class="elementor-item" tabindex="-1">Bodas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3494"><a href="/contacto/" class="elementor-item" tabindex="-1">Contacto</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+<main id="content" class="site-main post-2995 page type-page status-publish hentry">
+
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="2995" class="elementor elementor-2995" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-4f6bde7 e-flex e-con-boxed e-con e-parent" data-id="4f6bde7" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2cf6c3d e-flex e-con-boxed e-con e-child" data-id="2cf6c3d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c0f0d95 elementor-widget elementor-widget-heading" data-id="c0f0d95" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Eventos Privados
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0bc260c elementor-widget elementor-widget-image" data-id="0bc260c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="291" height="23" src="/wp-content/uploads/2022/11/Group-1.svg" class="attachment-full size-full wp-image-1168" alt="">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-988046a e-flex e-con-boxed e-con e-child" data-id="988046a" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-eb59472 e-flex e-con-boxed e-con e-child" data-id="eb59472" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7be9cbb elementor-widget elementor-widget-image" data-id="7be9cbb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="604" height="402" src="/wp-content/uploads/2016/10/10399030_97688162181_3297206_n-2.jpg" class="attachment-full size-full wp-image-239" alt="" srcset="/wp-content/uploads/2016/10/10399030_97688162181_3297206_n-2.jpg 604w, /wp-content/uploads/2016/10/10399030_97688162181_3297206_n-2-300x200.jpg 300w" sizes="(max-width: 604px) 100vw, 604px">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a9759fb e-flex e-con-boxed e-con e-child" data-id="a9759fb" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2e2b841 elementor-widget elementor-widget-text-editor" data-id="2e2b841" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Organice su evento en Carrousel y viva una experiencia inolvidable. Utilice nuestros espacios y ambientes, con servicio de bar, música y exquisita comida.</p>
+<p>Encuentre en Carrousel el lugar perfecto para su <strong>boda, grado, cumpleaños y bautizo,</strong> entre otros.</p>
+<p>No solo tendrá la maravillosa ciudad de Cartagena como fondo, sino que disfrutará de un día mágico y especial a bordo de Carrousel. La cubierta al aire libre y los salones interiores de nuestro barco de lujo ofrecen el escenario ideal para ese gran día.</p>
+<p>Nuestro equipo trabajará junto a usted para lograr el evento de sus sueños.</p>								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-561dbbd e-flex e-con-boxed e-con e-parent" data-id="561dbbd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b0c77e1 e-flex e-con-boxed e-con e-child" data-id="b0c77e1" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7bd645f elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7bd645f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">¡VIVE UNA EXPERIENCIA COMO NUNCA,<span style="color:#7AD3C1;"> QUE RECORDARÁS PARA SIEMPRE!</span>
+</h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d042375 e-flex e-con-boxed e-con e-child" data-id="d042375" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-9721319 e-con-full e-flex e-con e-child" data-id="9721319" data-element_type="container">
+				<div class="elementor-element elementor-element-50a81d6 elementor-widget elementor-widget-ucaddon_card_carousel" data-id="50a81d6" data-element_type="widget" data-widget_type="ucaddon_card_carousel.default">
+				<div class="elementor-widget-container">
+					
+<!-- start Card Carousel -->
+		<link id="font-awesome-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/font-awesome6/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+		<link id="font-awesome-4-shim-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/font-awesome6/fontawesome-v4-shims.min.css" type="text/css" rel="stylesheet">
+		<link id="owl-carousel-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/owl-carousel-new/assets/owl.carousel.css" type="text/css" rel="stylesheet">
+
+<style>/* widget: Card Carousel */
+
+#uc_card_carousel_elementor_50a81d6-wrapper
+{
+  min-height:1px;
+}
+#uc_card_carousel_elementor_50a81d6 *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#uc_card_carousel_elementor_50a81d6 .ue-carousel-item
+{
+  overflow:hidden;
+  transition:0.3s;
+}
+
+#uc_card_carousel_elementor_50a81d6 .uc_classic_carousel_container_holder
+{
+	display:block;
+	position:relative;
+	width:100%;
+    box-sizing: border-box;
+}
+.card_carousel_title
+{
+	font-size:21px;
+}
+
+.uc_classic_carousel .uc_classic_carousel_border
+{
+	display:block;
+    margin:0 auto;
+}
+
+.uc_classic_carousel  .uc_classic_carousel_placeholder img
+{
+	width:100%;
+    
+    display:inline-flex;
+}
+.uc_classic_carousel .uc_classic_carousel_content
+{
+  display: flex;
+ flex-flow: column nowrap;
+}
+
+.uc_classic_carousel .ue_button
+{
+  margin-top:auto;
+
+}
+
+.uc_classic_carousel .uc_classic_carousel_content .uc_more_btn {
+	display:inline-block;
+	text-decoration:none;
+	transition: all 0.5s ease;
+}
+
+
+#uc_card_carousel_elementor_50a81d6 .owl-dots {
+overflow:hidden;
+text-align:center;
+}
+
+#uc_card_carousel_elementor_50a81d6 .owl-dot {
+border-radius:50%;
+display:inline-block;
+}
+
+#uc_card_carousel_elementor_50a81d6 .owl-nav .owl-prev{
+    position:absolute;
+    display:inline-block;
+    text-align:center;
+}
+#uc_card_carousel_elementor_50a81d6 .owl-nav .owl-next{
+  position:absolute;
+  display:inline-block;
+  text-align:center;
+}
+
+#uc_card_carousel_elementor_50a81d6 .owl-nav .disabled
+{
+    display: none;  
+}
+
+
+#uc_card_carousel_elementor_50a81d6 .ue-item-icon
+{
+  line-height:1em;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+#uc_card_carousel_elementor_50a81d6 .ue-item-icon svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_card_carousel_elementor_50a81d6 .ue-item-icon-wrapper
+{
+  display:flex;
+}</style>
+
+<div class="uc_classic_carousel" id="uc_card_carousel_elementor_50a81d6-wrapper">
+        <div class="uc_carousel owl-carousel " id="uc_card_carousel_elementor_50a81d6">
+          	<div class="uc_classic_carousel_container_holder ue-item elementor-repeater-item-aa10e3c">
+  <div class="ue-carousel-item">
+      <div class="uc_classic_carousel_placeholder">
+          <img loading="lazy" decoding="async" src="/wp-content/uploads/2016/10/bodas-768x576.jpg" alt="bodas" width="768" height="576">
+      </div>
+    <div class="uc_classic_carousel_content" style="direction:ltr;">
+    
+    
+        
+          	
+      <div class="card_carousel_title">Bodas</div>
+          	
+    
+      
+        
+    
+    	
+    
+    
+    	
+  </div>
+  </div>
+</div>
+<div class="uc_classic_carousel_container_holder ue-item elementor-repeater-item-6ca80b2">
+  <div class="ue-carousel-item">
+      <div class="uc_classic_carousel_placeholder">
+          <img loading="lazy" decoding="async" src="/wp-content/uploads/2016/10/findeaño-768x576.jpg" alt="findeano" width="768" height="576">
+      </div>
+    <div class="uc_classic_carousel_content" style="direction:ltr;">
+    
+    
+        
+          	
+      <div class="card_carousel_title">Fiesta de Fin de Año</div>
+          	
+    
+      
+        
+    
+    	
+    
+    
+    	
+  </div>
+  </div>
+</div>
+<div class="uc_classic_carousel_container_holder ue-item elementor-repeater-item-2e7905d">
+  <div class="ue-carousel-item">
+      <div class="uc_classic_carousel_placeholder">
+          <img loading="lazy" decoding="async" src="/wp-content/uploads/2016/10/9-768x576.jpg" alt="9" width="768" height="576">
+      </div>
+    <div class="uc_classic_carousel_content" style="direction:ltr;">
+    
+    
+        
+          	
+      <div class="card_carousel_title">Cumpleaños</div>
+          	
+    
+      
+        
+    
+    	
+    
+    
+    	
+  </div>
+  </div>
+</div>
+
+      </div>
+</div>
+<!-- end Card Carousel -->				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-df4aadf e-flex e-con-boxed e-con e-child" data-id="df4aadf" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ab85475 elementor-align-center elementor-widget elementor-widget-button" data-id="ab85475" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="#Form" id="BtnFormSoc">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">¡Cotiza con nosotros!</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0ea3ecd e-flex e-con-boxed e
